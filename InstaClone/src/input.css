@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .magnify-110-200 {
+    @apply hover:scale-110 transition-transform duration-200 ease-out;
+  }
+
+  .magnify-125-200 {
+    @apply hover:scale-125 transition-transform duration-200 ease-out;
+  }
+}
